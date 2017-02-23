@@ -1,0 +1,139 @@
+
+**** Build of configuration Debug for project pengeoversikt ****
+
+Nothing to build for project pengeoversikt
+20:35:03 **** Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/fileReader.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fileReader.d" -MT"src/fileReader.o" -o "src/fileReader.o" "../src/fileReader.cpp"
+../src/fileReader.cpp:8:10: fatal error: 'fileReader.hpp' file not found
+#include "fileReader.hpp"
+         ^
+1 error generated.
+make: *** [src/fileReader.o] Error 1
+20:54:30 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/fileReader.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fileReader.d" -MT"src/fileReader.o" -o "src/fileReader.o" "../src/fileReader.cpp"
+Finished building: ../src/fileReader.cpp
+ 
+Building file: ../src/income.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/income.d" -MT"src/income.o" -o "src/income.o" "../src/income.cpp"
+In file included from ../src/income.cpp:8:
+../src/income.h:11:17: warning: using directive refers to implicitly-defined namespace 'std'
+using namespace std;
+                ^
+../src/income.cpp:12:9: error: cannot define or redeclare 'income' here because namespace 'std' does not enclose namespace 'income'
+income::income() {
+~~~~~~~~^
+../src/income.cpp:17:9: error: cannot define or redeclare '~income' here because namespace 'std' does not enclose namespace 'income'
+income::~income() {
+~~~~~~~~^
+1 warning and 2 errors generated.
+make: *** [src/income.o] Error 1
+20:55:18 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp:10:10: error: 'fileReader.hpp' file not found with <angled> include; use "quotes" instead
+#include <fileReader.hpp>
+         ^~~~~~~~~~~~~~~~
+         "fileReader.hpp"
+../src/main.cpp:15:2: error: no matching function for call to 'fileHandler'
+        fileHandler("oversikt2016.dat");
+        ^~~~~~~~~~~
+../src/fileReader.hpp:16:6: note: candidate function not viable: requires 0 arguments, but 1 was provided
+void fileHandler();
+     ^
+2 errors generated.
+make: *** [src/main.o] Error 1
+20:56:44 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/fileReader.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fileReader.d" -MT"src/fileReader.o" -o "src/fileReader.o" "../src/fileReader.cpp"
+Finished building: ../src/fileReader.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Pengeoversikt
+Invoking: Cross G++ Linker
+g++  -o "Pengeoversikt"  ./src/fileReader.o ./src/main.o   
+Finished building target: Pengeoversikt
+ 
+20:57:20 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+make: Nothing to be done for `all'.
+20:58:01 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building target: Pengeoversikt
+Invoking: Cross G++ Linker
+g++  -o "Pengeoversikt"  ./src/fileReader.o ./src/main.o   
+Finished building target: Pengeoversikt
+ 
+20:58:23 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+make: Nothing to be done for `all'.
+20:59:18 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+make: Nothing to be done for `all'.
+21:00:06 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/fileReader.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fileReader.d" -MT"src/fileReader.o" -o "src/fileReader.o" "../src/fileReader.cpp"
+Finished building: ../src/fileReader.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Pengeoversikt
+Invoking: Cross G++ Linker
+g++  -o "Pengeoversikt"  ./src/fileReader.o ./src/main.o   
+Finished building target: Pengeoversikt
+ 
+21:02:37 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/fileReader.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fileReader.d" -MT"src/fileReader.o" -o "src/fileReader.o" "../src/fileReader.cpp"
+Finished building: ../src/fileReader.cpp
+ 
+Building target: Pengeoversikt
+Invoking: Cross G++ Linker
+g++  -o "Pengeoversikt"  ./src/fileReader.o ./src/main.o   
+Finished building target: Pengeoversikt
+ 
+21:10:25 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/fileReader.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fileReader.d" -MT"src/fileReader.o" -o "src/fileReader.o" "../src/fileReader.cpp"
+Finished building: ../src/fileReader.cpp
+ 
+Building target: Pengeoversikt
+Invoking: Cross G++ Linker
+g++  -o "Pengeoversikt"  ./src/fileReader.o ./src/main.o   
+Finished building target: Pengeoversikt
+ 
+21:11:19 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/fileReader.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fileReader.d" -MT"src/fileReader.o" -o "src/fileReader.o" "../src/fileReader.cpp"
+Finished building: ../src/fileReader.cpp
+ 
+Building target: Pengeoversikt
+Invoking: Cross G++ Linker
+g++  -o "Pengeoversikt"  ./src/fileReader.o ./src/main.o   
+Finished building target: Pengeoversikt
+ 

@@ -1,0 +1,21 @@
+/*
+ * income.cpp
+ *
+ *  Created on: 9. feb. 2017
+ *      Author: fschjerven
+ */
+
+#include "income.h"
+
+namespace std {
+
+income::income() {
+	// TODO Auto-generated constructor stub
+
+}
+
+income::~income() {
+	// TODO Auto-generated destructor stub
+}
+
+} /* namespace std */

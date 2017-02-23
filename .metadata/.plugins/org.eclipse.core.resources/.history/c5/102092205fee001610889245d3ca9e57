@@ -1,0 +1,21 @@
+/*
+ * income.h
+ *
+ *  Created on: 9. feb. 2017
+ *      Author: fschjerven
+ */
+
+#ifndef INCOME_H_
+#define INCOME_H_
+
+namespace std {
+
+class income {
+public:
+	income();
+	virtual ~income();
+};
+
+} /* namespace std */
+
+#endif /* INCOME_H_ */

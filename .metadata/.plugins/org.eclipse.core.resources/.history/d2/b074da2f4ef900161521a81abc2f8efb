@@ -1,0 +1,35 @@
+/*
+ * expensesShop.h
+ *
+ *  Created on: 22. feb. 2017
+ *      Author: fschjerven
+ */
+
+#ifndef EXPENSESSHOP_H_
+#define EXPENSESSHOP_H_
+
+namespace std {
+
+class expensesShop{
+private:
+	double sumExpenses = 0;
+	int numTrans = 0;
+
+
+public:
+	expensesShop();
+	virtual ~expensesShop();
+
+	void setExpenses(double& value);
+	void setDateOfPurchase(string& date);
+	void setExpensesLoc(string& location);
+	void getExpenses();
+	void getExpensesStats();
+	void
+
+
+};
+
+} /* namespace std */
+
+#endif /* EXPENSESSHOP_H_ */

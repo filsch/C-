@@ -1,0 +1,45 @@
+!SESSION 2017-02-06 23:26:17.733 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=nb_NO
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/fschjerven/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/fschjerven/.eclipse_keyring
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-06 23:28:09.345
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/Users/fschjerven/Downloads/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-06 23:28:53.993
+!MESSAGE Indexed 'pengeoversikt' (0 sources, 0 headers) in 0,003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!SESSION 2017-02-06 23:33:22.303 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=nb_NO
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/fschjerven/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/fschjerven/.eclipse_keyring
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-06 23:35:03.414
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/Applications/Eclipse C++.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+
+!ENTRY org.eclipse.linuxtools.rpm.ui.editor 2 127 2017-02-06 23:41:57.831
+!MESSAGE Return value of process was non-zero value 127. This may mean output is not accurate.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-06 23:57:21.429
+!MESSAGE Indexed 'Pengeoversikt' (1 sources, 182 headers) in 15,3 sec: 23 210 declarations; 46 312 references; 0 unresolved inclusions; 11 syntax errors; 90 unresolved names (0,13 %)
+!SESSION 2017-02-22 20:34:00.532 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=nb_NO
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/fschjerven/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/fschjerven/.eclipse_keyring
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2017-02-22 20:35:02.420
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/Applications/Eclipse C++.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-02-22 20:59:18.276
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-02-22 20:59:18.317
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

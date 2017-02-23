@@ -1,0 +1,15 @@
+21:11:19 **** Incremental Build of configuration Debug for project Pengeoversikt ****
+make all 
+Building file: ../src/fileReader.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fileReader.d" -MT"src/fileReader.o" -o "src/fileReader.o" "../src/fileReader.cpp"
+Finished building: ../src/fileReader.cpp
+ 
+Building target: Pengeoversikt
+Invoking: Cross G++ Linker
+g++  -o "Pengeoversikt"  ./src/fileReader.o ./src/main.o   
+Finished building target: Pengeoversikt
+ 
+
+21:11:20 Build Finished (took 638ms)
+
